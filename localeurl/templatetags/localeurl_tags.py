@@ -1,5 +1,7 @@
 from django import template
-from django.template.base import Node, Token, TemplateSyntaxError, resolve_variable
+from django.template import Node, TemplateSyntaxError
+from django.template.base import Token
+from django.template import resolve_variable
 from django.template.defaultfilters import stringfilter
 from django.templatetags import future
 
